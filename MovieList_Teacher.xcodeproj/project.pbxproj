@@ -13,6 +13,7 @@
 		7AF8F0FF2504F24C001B8EB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF8F0FD2504F24C001B8EB3 /* Main.storyboard */; };
 		7AF8F1012504F24D001B8EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF8F1002504F24D001B8EB3 /* Assets.xcassets */; };
 		7AF8F1042504F24D001B8EB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF8F1022504F24D001B8EB3 /* LaunchScreen.storyboard */; };
+		7AF8F10C2504F8D7001B8EB3 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF8F10B2504F8D7001B8EB3 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7AF8F1002504F24D001B8EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AF8F1032504F24D001B8EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AF8F1052504F24D001B8EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF8F10B2504F8D7001B8EB3 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7AF8F0F72504F24C001B8EB3 /* AppDelegate.swift */,
 				7AF8F0F92504F24C001B8EB3 /* SceneDelegate.swift */,
 				7AF8F0FB2504F24C001B8EB3 /* ViewController.swift */,
+				7AF8F10B2504F8D7001B8EB3 /* MovieTableViewCell.swift */,
 				7AF8F0FD2504F24C001B8EB3 /* Main.storyboard */,
 				7AF8F1002504F24D001B8EB3 /* Assets.xcassets */,
 				7AF8F1022504F24D001B8EB3 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				7AF8F0FC2504F24C001B8EB3 /* ViewController.swift in Sources */,
 				7AF8F0F82504F24C001B8EB3 /* AppDelegate.swift in Sources */,
+				7AF8F10C2504F8D7001B8EB3 /* MovieTableViewCell.swift in Sources */,
 				7AF8F0FA2504F24C001B8EB3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

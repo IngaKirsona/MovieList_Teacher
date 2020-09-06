@@ -11,11 +11,16 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return 100
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = tableView.dequeueReusableCell(withIdentifier: "movieCell", for: indexPath)
+        
+        cell.textLabel?.text = "\(indexPath.row)"
+        
+        
+        return cell
     }
     
 
