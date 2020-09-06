@@ -94,6 +94,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="MovieList" id="2uc-bT-Mps"/>
+                    <connections>
+                        <outlet property="tableView" destination="tDc-KA-o9m" id="DDP-AB-5WW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
